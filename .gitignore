@@ -1,0 +1,9 @@
+# Hugo default output
+/public
+/resources/_gen
+
+# macOS files
+.DS_Store
+
+#Themes
+/themes/hugo-story/originalStorySite
