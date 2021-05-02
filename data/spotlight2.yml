@@ -1,8 +1,9 @@
 ####################### Spotlight #########################
-style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
-title : "Spotlight"
+style: "style2 orient-left content-align-left image-position-center onscroll-image-fade-in"
+title : "Festen på Wine Mechanics"
 content: |
-  This is also a <strong>Spotlight</strong> element, and it's here because this demo would look a bit empty with just one spotlight. Like all spotlights, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
+  Efter vigseln åker vi tillsammans i bokad transport till festen som kommer hållas på Wine Mechanics i Gamlestan. Om du vill använda eget färdmedel för att ta dig till festlokalen är adressen Lilla Waterloogatan 15, 415 02 Göteborg. När ni har festat färdigt tar ni enkelt spårvagn eller buss från Gamlestads torg som är närmsta hållplats. Vi tycker mycket om era kids men denna dag vill vi fira med bara er (årrets ammande bebisar är såklart välkomna).
+  </p><p>Vi blir otroligt glada om ni vill bidra till festen med ett tal eller framförande! Vi uppskattar dock om hyllningarna inte blir alltför långa. Under dagen och kvällen kommer våra fantastiska värdar, Matilda, Kerstin, Elin och Lovisa ha stenkoll på programmet så om du vill framföra något uppskattar dom om du anmäler det i förväg till … @vofgiftersig.se 
 button: 
   label: "Learn More"
   link: "#"

@@ -1,10 +1,11 @@
 ####################### Spotlight #########################
-style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+style: "style2 orient-right content-align-left image-position-center onscroll-image-fade-in"
 id: "first"
-title : "Spotlight"
+title : "Vigseln i Betlehemskyrkan"
 content: |
-  This is a <strong>Spotlight</strong> element, and it's generally used &ndash; as its name implies &ndash; to spotlight a particular feature, subject, or pretty much whatever. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
-button: 
-  label: "Learn More"
-  link: "#"
+  Vi hälsar alla våra vänner och bekanta välkomna till vigseln, som äger rum i Betlehemskyrkan kl 14.30 i Vasastan Göteborg. Efter vigseln bjuds det på fika och kaffe i kyrkan.</p>
+  <p>Adressen till kyrkan är Vasagatan 28. Eftersom Betlehemskyrkan ligger mitt inne i stan rekommenderar vi kollektivtrafik för att ta sig dit. Närmsta hållplatser är Vasa Viktoriagatan och Vasaplatsen. Om man kör bil finns närmsta stora parkering på Heden men man kan också ha tur att hitta en plats längs gatorna i Vasastan.
+# button: 
+#   label: "Learn More"
+#   link: "#"
 image: "images/spotlight01.jpg"
