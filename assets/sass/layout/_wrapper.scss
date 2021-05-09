@@ -1,0 +1,33 @@
+/*
+	Hugo Story by CaressOfSteel
+	A (modular, highly tweakable) responsive one-page theme for Hugo.
+	Ported from Story by HTML5UP.
+	This Hugo theme is licensed under the Creative Commons Attribution 3.0 License.
+*/
+
+/* Wrapper */
+
+	@mixin wrapper-color($n) {
+		> .color#{$n} {
+			background-color: _palette(color#{$n});
+		}
+	}
+
+	#wrapper {
+		background-color: inherit;
+		width: 100%;
+		overflow-x: hidden;
+
+		> .invert {
+			@include color(invert);
+		}
+
+		@include wrapper-color(1);
+		@include wrapper-color(2);
+		@include wrapper-color(3);
+		@include wrapper-color(4);
+		@include wrapper-color(5);
+		@include wrapper-color(6);
+		@include wrapper-color(7);
+
+	}

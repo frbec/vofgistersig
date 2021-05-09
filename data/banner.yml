@@ -1,11 +1,17 @@
 ####################### Banner #########################
 style: "style1 orient-left content-align-left image-position-top fullscreen onload-image-fade-in onload-content-fade-right"
-title : "Viktoria & Fredrik gifter sig!"
+title : "Viktoria & Fredrik gifter sig"
 subtitle: |
-  Den 28 augusti blir vi man och hustru. Fira med oss i Göteborg.
+  Den 28 augusti blir vi man och hustru. Fira med oss i Göteborg!
 content : ""
-button:
-  label : "Get Started"
-  link : "#first"
+buttons:
+  - label : "Alla detaljer"
+    link : "#first"
+
+  - label : "OSA direkt"
+    link : "#osa"
+
+  - label : "Covid-info"
+    link : "/covid"
 image : "images/cykelbild.png"
 

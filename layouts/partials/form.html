@@ -1,0 +1,28 @@
+<!-- Form -->
+<section class="wrapper align-center" id="osa">
+        <div class="inner">
+            <h2>{{ .title }}</h2>
+            <p>{{ .content | safeHTML }}</p>
+            <div class="form">
+    <form name="contact" method="POST" data-netlify="true">
+    <p>
+      <label>Namn: <input type="text" name="name" /></label>   
+    </p>
+    <p>
+      <label>Specialkost (allt som serveras är vegetariskt): <input type="text" name="name" /></label>   
+    </p>
+    <p>
+      <label>Önskelåt som får dansgovlet att explodera: <input type="text" name="name" /></label>   
+    </p>
+    <p>
+      <label>Transportsätt till festlokalen: <select name="transport[]">
+          <option value="spårvagn">Gemensam transport</option>
+          <option value="bil">Egen bil</option>
+      </select></label>
+    </p>
+    <p>
+      <button type="submit">Hurra för fest!</button>
+    </p>
+  </form>
+</div>
+</section>

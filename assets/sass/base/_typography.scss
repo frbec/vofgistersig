@@ -8,7 +8,22 @@
 /* Type */
 	@font-face {
 		font-family: 'Crimson Text';
-		src: url('assets/webfonts/CrimsonText-Regular.tff') format(truetype);
+		font-display: swap;
+		src: url('static/fonts/CrimsonText-Regular.ttf') format('truetype');
+	}
+
+	@font-face {
+		font-family: 'Crimson Text';
+		font-display: swap;
+		src: url('fonts/CrimsonText-Bold.tff') format('truetype');
+		font-weight: 800;
+	}
+
+	@font-face {
+		font-family: 'Crimson Text';
+		font-display: swap;
+		src: url('fonts/CrimsonText-SemiBold.tff');
+		font-weight: 600;
 	}
 
 	html {
