@@ -6,22 +6,24 @@
             <div class="form">
     <form name="contact" method="POST" data-netlify="true">
     <p>
-      <label>Namn: <input type="text" name="name" /></label>   
+      <label>Namn: <input type="text" name="namn" /></label>   
     </p>
     <p>
-      <label>Specialkost (allt som serveras är vegetariskt): <input type="text" name="name" /></label>   
+      <label>Specialkost (allt som serveras är vegetariskt): <input type="text" name="mat" /></label>   
     </p>
     <p>
-      <label>Önskelåt som får dansgovlet att explodera: <input type="text" name="name" /></label>   
+      <label>Önskelåt som får dansgolvet att explodera: <input type="text" name="dans" /></label>   
     </p>
     <p>
-      <label>Transportsätt till festlokalen: <select name="transport[]">
-          <option value="spårvagn">Gemensam transport</option>
-          <option value="bil">Egen bil</option>
-      </select></label>
+      <input type="checkbox" value="ja till brunch" id="brunch" name="brunch" />
+        <label for="brunch">Jag/vi vill vara med på brunch dagen efter</label>
     </p>
     <p>
-      <button type="submit">Hurra för fest!</button>
+      <input type="checkbox" value="bil" id="transport" name="transport" />
+        <label for="transport">Jag/vi tar oss på egen hand till festlokalen</label>
+    </p>
+    <p>
+      <button type="submit" class="primary">Hurra för fest!</button>
     </p>
   </form>
 </div>

@@ -6,13 +6,14 @@ baseURL = "https://www.vofgiftersig.se"
 title = "Vof gifter sig"
 languageCode = "sv-se"
 theme = "hugo-story"
-
+defaultContentLanguage = "sv"
 
 ## -----------------------------------------------
 ## Hugo Built-in Features
 ## -----------------------------------------------
 
-disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+
+# disableKinds = ["taxonomy", "taxonomyTerm", "section"]
 # googleAnalytics = "your-google-analytics-id"
 
 

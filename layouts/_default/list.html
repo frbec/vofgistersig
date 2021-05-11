@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <section class="banner style1">
+    <div class="content">
+        {{ with .Title }}<h2>{{ . }}</h2>{{ end }}
+
+  {{ range .Pages }}
+    <h3>{{ .Date.Format "2006-01-02" }} – {{ .Title }}</h3>
+    {{ .Content | safeHTML }}
+  {{ end }}
+  <a href="/" class="button">Tillbaka</a>
+</section>
+{{ end }}

@@ -1,10 +1,10 @@
 ####################### Spotlight #########################
 style: "style2 orient-right content-align-left image-position-center onscroll-image-fade-in"
 id: "first"
-title : "Dagen Efter – Brunch"
+title : "Brunch dagen efter"
 content: |
-  Fortsätt fira tillsammans med oss! För att få en chans att prata lite mer, får alla som vill (eller tillresta) komma på brunch i betlehemskyrkan på söndagen från kl 11:00. Ingång vid Karl Gustavsgatan (eller andra “tunneln”?)
+  Fortsätt fira tillsammans med oss! För att få en chans att prata lite mer, vill vi bjuda alla tillresta gäster att komma på brunch i betlehemskyrkan på söndagen från kl 11:00. Ingång den här dagen är vid Karl Gustavsgatan 12B, inte huvudingången. Fyll i OSA-formuläret om du vill göra oss sällskap.
 # Button: 
 #   label: "Learn More"
 #   link: "#"
-image: "images/spotlight03.jpg"
+image: "images/tandem.jpg"

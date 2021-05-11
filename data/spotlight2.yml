@@ -2,9 +2,22 @@
 style: "style2 orient-left content-align-left image-position-center onscroll-image-fade-in"
 title : "Festen på Wine Mechanics"
 content: |
-  Efter vigseln åker vi tillsammans i bokad transport till festen som kommer hållas på Wine Mechanics i Gamlestan. Om du vill använda eget färdmedel för att ta dig till festlokalen är adressen Lilla Waterloogatan 15, 415 02 Göteborg. När ni har festat färdigt tar ni enkelt spårvagn eller buss från Gamlestads torg som är närmsta hållplats. Vi tycker mycket om era kids men denna dag vill vi fira med bara er (årrets ammande bebisar är såklart välkomna).
-  </p><p>Vi blir otroligt glada om ni vill bidra till festen med ett tal eller framförande! Vi uppskattar dock om hyllningarna inte blir alltför långa. Under dagen och kvällen kommer våra fantastiska värdar, Matilda, Kerstin, Elin och Lovisa ha stenkoll på programmet så om du vill framföra något uppskattar dom om du anmäler det i förväg till … @vofgiftersig.se 
-button: 
-  label: "Learn More"
-  link: "#"
+  Efter vigseln åker vi tillsammans i bokad transport till festen som kommer hållas på Wine Mechanics i Gamlestan. Om du vill använda eget färdmedel för att ta dig till festlokalen är adressen Lilla Waterloogatan 15, 415 02 Göteborg. När ni har festat färdigt tar ni enkelt spårvagn eller buss från Gamlestads torg som är närmsta hållplats. Vi tycker mycket om era kids men denna dag vill vi fira med bara er (årets ammande bebisar är såklart välkomna).
+content2: |
+  Vi blir otroligt glada om ni vill bidra till festen med ett tal eller framförande! Vi uppskattar dock om hyllningarna inte blir alltför långa. Under dagen och kvällen kommer våra fantastiska värdar, Matilda, Kerstin, Elin och Lovisa ha stenkoll på programmet så om du vill framföra något uppskattar dom om du anmäler det i förväg till spexmonolog@vofgiftersig.se
+  </p><p>Presenter? Vi klurar fortfarande på det och uppdaterar inom kort.
 image: "images/wm.jpg"
+# items:
+#   items :
+#     # feature item loop
+#     - name : "Klädkod kavaj"
+#       content : "Kavaj är en lite ledigare klädkod, och passar framförallt bra på sommarhalvåret. Här är två förslag, men känner du att inget passar dig så välj hellre något du är bekväm och känner dig fin i."
+#       style : "style2 major"
+
+#     - name : "Det ena"
+#       content : "Klänning, kjol, byxdress eller dräkt. Det ska vara elegant men inte lika uppklätt som en mörk aftonklädsel."
+#       style : "style2 major"
+
+#     - name : "Det andra"
+#       content : "Kostym i valfri färg, där kavaj, byxa och eventuellt väst går i samma stil (ju mörkare färg desto mer formellt). Bärs med slips eller fluga."
+#       style : "solid style2 major"

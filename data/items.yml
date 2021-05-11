@@ -1,15 +1,15 @@
 title : "Klädkod: Kavaj"
 content: |
-  Kavaj är en lite ledigare klädkod, och passar framförallt bra på sommarhalvåret. 
+  Kavaj är en lite ledigare klädkod, och passar framförallt bra på sommarhalvåret. Här är två förslag, men känner du att inget passar dig så välj hellre något du är bekväm och känner dig fin i.
 style: "style3 medium onscroll-fade-in"
 items:
   # feature item loop
-  - name : "Klänning"
+  - name : "Det ena"
     content : "Klänning, kjol, byxdress eller dräkt. Det ska vara elegant men inte lika uppklätt som en mörk aftonklädsel."
     style : "style2 major fa-gem"
 
   # feature item loop
-  - name : "Kostym"
+  - name : "Det andra"
     content : "Kostym i valfri färg, där kavaj, byxa och eventuellt väst går i samma stil (ju mörkare färg desto mer formellt). Bärs med slips eller fluga."
-    style : "solid style2 major fa-save"
+    style : "solid style2 major fa-user-tie"
     

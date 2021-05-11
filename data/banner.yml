@@ -5,13 +5,16 @@ subtitle: |
   Den 28 augusti blir vi man och hustru. Fira med oss i Göteborg!
 content : ""
 buttons:
-  - label : "Alla detaljer"
-    link : "#first"
+  - label : "Om dagen"
+    link : "#divider1"
+    style : primary smooth-scroll
 
-  - label : "OSA direkt"
+  - label : "OSA"
     link : "#osa"
+    style : smooth-scroll-middle 
 
   - label : "Covid-info"
-    link : "/covid"
+    link : "/posts"
+    style : 
 image : "images/cykelbild.png"
 

@@ -1,0 +1,5 @@
+####################### Divider #########################
+id : "divider1"
+style: "onload-image-fade-in"
+image : "images/divider.png"
+

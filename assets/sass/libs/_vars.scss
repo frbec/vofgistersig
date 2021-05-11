@@ -11,10 +11,10 @@
 	$duration: (
 		menu:				0.5s,
 		transition:			0.2s,
-		gallery-lightbox:	0.5s,
+		gallery-lightbox:	0.3s,
 		gallery-delay:		0.15s,
-		items-delay:		0.15s,
-		on-load:			0.75s,
+		items-delay:		0.05s,
+		on-load:			0.5s,
 		on-scroll:			0.75s
 	);
 
@@ -28,7 +28,7 @@
 		gutter:				3.5rem,
 		inner:				64rem,
 		padding:			(
-			default:		7rem,
+			default:		4rem,
 			xlarge:			5rem,
 			large:			4rem,
 			medium:			3rem,
@@ -38,10 +38,11 @@
 
 // Font.
 	$font: (
-		family:				('Crimson Text', 'Source Sans Pro', Helvetica, sans-serif),
+		family-heading:		('Crimson Text', 'Times', 'Times New Roman', serif),
+		family:				('Lato', Helvetica, sans-serif),
 		family-fixed:		('Courier New', monospace),
-		weight:				300,
-		weight-bold:		400,
+		weight:				400,
+		weight-bold:		700,
 		kerning:			-0.05em,
 		kerning-alt:		0.125em
 	);
@@ -58,13 +59,13 @@
 
 		bg:					#F1EEE6,
 		bg-alt:				#eeeeee,
-		fg:					#000000,
-		fg-bold:			#000000,
+		fg:					#131b38,
+		fg-bold:			#131b38,
 		fg-light:			rgba(0,0,0,0.75),
 		border:				rgba(0,0,0,0.2),
 		border-alt:			rgba(0,0,0,0.075),
 		border-bg:			rgba(0,0,0,0.05),
-		accent:				#837164,
+		accent:				#996e2e,
 
 		invert: (
 			bg:				#000000,
