@@ -7,10 +7,10 @@
 
 /* Type */
 	html {
-		font-size: 20px;
+		font-size: 18px;
 
 		@include breakpoint('<=xlarge') {
-			font-size: 20px;
+			font-size: 18px;
 		}
 
 		@include breakpoint('<=large') {
@@ -77,7 +77,7 @@
 	}
 
 	h1 {
-		font-size: 3.5rem;
+		font-size: 4rem;
 		line-height: 1.2;
 	}
 

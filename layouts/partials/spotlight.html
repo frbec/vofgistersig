@@ -3,12 +3,14 @@
     <div class="content">
         {{ with .title }}<h2>{{ . }}</h2>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
-        {{ with .items }}<div class="items style3 medium">
-            {{ range .items }}
-                {{ partial "item" . }}
+        {{ with .info }}<div class="box">
+            <h3>{{ .title }}</h3>
+            <ul>
+            {{ range .content }}
+                <li>{{ . }}</li>
             {{ end }}
+            </ul>
         </div>{{ end }}
-        {{ with .content2 }}<p>{{ . | safeHTML }}</p>{{ end }}
         {{ with .button }}<ul class="actions stacked">
             <li><a href="{{ .link }}" class="button">{{ .label }}</a></li>
         </ul>{{ end }}
