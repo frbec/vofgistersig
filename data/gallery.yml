@@ -12,11 +12,11 @@ pictures:
   - image: "images/gallery/examen.jpg"
     thumb: "images/gallery/thumbs/examen.jpg"
 
+  - image: "images/gallery/fjallbacka-2.jpg"
+    thumb: "images/gallery/thumbs/fjallbacka-2.jpg"
+
   - image: "images/gallery/fest.jpg"
     thumb: "images/gallery/thumbs/fest.jpg"
-
-  - image: "images/gallery/fjallbacka.jpg"
-    thumb: "images/gallery/thumbs/fjallbacka.jpg"
 
   - image: "images/gallery/forlovning.jpg"
     thumb: "images/gallery/thumbs/forlovning.jpg"
@@ -27,16 +27,19 @@ pictures:
   - image: "images/gallery/klimat.jpg"
     thumb: "images/gallery/thumbs/klimat.jpg"
 
+  - image: "images/gallery/fjallbacka.jpg"
+    thumb: "images/gallery/thumbs/fjallbacka.jpg"
+
   - image: "images/gallery/prag.jpg"
     thumb: "images/gallery/thumbs/prag.jpg"
 
-  - image: "images/gallery/sol.jpg"
-    thumb: "images/gallery/thumbs/sol.jpg"
+  # - image: "images/gallery/sol.jpg"
+  #   thumb: "images/gallery/thumbs/sol.jpg"
 
   - image: "images/gallery/vandring.jpg"
     thumb: "images/gallery/thumbs/vandring.jpg"
 
-  - image: "images/gallery/tandem.jpg"
-    thumb: "images/gallery/thumbs/tandem.jpg"
+  - image: "images/gallery/snygga.jpg"
+    thumb: "images/gallery/thumbs/snygga.jpg"
 
     
