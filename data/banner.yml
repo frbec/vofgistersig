@@ -2,19 +2,20 @@
 style: "style1 orient-left content-align-left image-position-top fullscreen onload-image-fade-in onload-content-fade-right"
 title : "Viktoria & Fredrik gifter sig"
 subtitle: |
-  Den 28 augusti blir vi man och hustru. Fira med oss i Göteborg!
+  Den 28 augusti blir vi man och hustru. Fira med oss i Göteborg! Och kolla gärna covid-info då och då närmsta veckorna.
 content : ""
 buttons:
+  - label : "Covid-info *"
+    link : "/posts"
+    style : primary
+
   - label : "Om dagen"
     link : "#divider1"
-    style : primary smooth-scroll
+    style : smooth-scroll
 
   - label : "OSA"
     link : "#osa"
     style : smooth-scroll-middle 
 
-  - label : "Covid-info"
-    link : "/posts"
-    style : 
 image : "images/cykelbild.png"
 
