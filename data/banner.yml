@@ -1,11 +1,11 @@
 ####################### Banner #########################
 style: "style1 orient-left content-align-left image-position-top fullscreen onload-image-fade-in onload-content-fade-right"
-title : "Viktoria & Fredrik gifter sig"
+title : "Viktoria & Fredrik gifter sig (sen)"
 subtitle: |
-  Den 28 augusti blir vi man och hustru. Fira med oss i Göteborg! Och kolla gärna covid-info då och då närmsta veckorna.
+  Vi blir inte man och hustru riktigt än, men förhoppningsvis under 2022. Bröllopet är inställt, läs mer på covid-info.
 content : ""
 buttons:
-  - label : "Covid-info *"
+  - label : "Covid-info"
     link : "/posts"
     style : primary
 
@@ -13,9 +13,9 @@ buttons:
     link : "#divider1"
     style : smooth-scroll
 
-  - label : "OSA"
-    link : "#osa"
-    style : smooth-scroll-middle 
+#  - label : "OSA"
+#    link : "#osa"
+#    style : smooth-scroll-middle 
 
 image : "images/cykelbild.png"
 
