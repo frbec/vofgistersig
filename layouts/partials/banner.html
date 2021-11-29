@@ -9,6 +9,6 @@
             {{ end }}</ul>
     </div>
     {{ with .image }}<div class="image">
-        <img src="{{.}}" alt="Hugo Story" />
+        <img src="{{ .src }}" alt="{{ .alt }}" />
     </div>{{end}}
 </section>

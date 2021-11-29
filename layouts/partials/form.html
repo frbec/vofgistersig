@@ -1,30 +1,37 @@
 <!-- Form -->
 <section class="wrapper align-center" id="osa">
-        <div class="inner">
-            <h2>{{ .title }}</h2>
-            <p>{{ .content | safeHTML }}</p>
-            <div class="form">
-    <form name="contact" method="POST" data-netlify="true">
-    <p>
-      <label>Namn: <input type="text" name="namn" /></label>   
-    </p>
-    <p>
-      <label>Specialkost (allt som serveras är vegetariskt): <input type="text" name="mat" /></label>   
-    </p>
-    <p>
-      <label>Önskelåt som får dansgolvet att explodera: <input type="text" name="dans" /></label>   
-    </p>
-    <p>
-      <input type="checkbox" value="ja" id="brunch" name="brunch" />
-        <label for="brunch">Jag/vi vill vara med på brunch för tillresta</label>
-    </p>
-    <p>
-      <input type="checkbox" value="ja" id="transport" name="transport" />
-        <label for="transport">Jag/vi vill <strong>inte</strong> delta på<a href="#festen" class="smooth-scroll-middle"> gemensam festpepp på väg till festen</a></label>
-    </p>
-    <p>
-      <button type="submit" class="primary">Hurra för fest!</button>
-    </p>
-  </form>
-</div>
+  <div class="inner">
+      <h2>{{ .title }}</h2>
+      <p>{{ .content | safeHTML }}</p>
+      <div class="form">
+        <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Namn: <input type="text" name="namn" /></label>
+        </p>
+        <p>
+          <label>Specialkost (allt som serveras är vegetariskt): <input type="text" name="mat" /></label>   
+        </p>
+        <p>
+          <label>Önska en danslåt, eller en till om du gjort det förut<input type="text" name="dans" /></label>   
+        </p>
+        <p>
+          <input type="checkbox" value="ja" id="transport" name="transport" />
+            <label for="transport">Jag/vi behöver ta oss på egen hand från vigsel till festlokal</a></label>
+        </p>
+        <h3>För tillresta</h3>
+        <p>För att kunna slutföra bokningen av frukost behöver vi veta om ni bor på hotellet eller bara vill komma på frukost.</p>
+        <p>
+          <input type="checkbox" value="ja" id="hotell" name="hotell" />
+            <label for="hotell">Jag/vi bokar vårt boende på Scandic (ange kod <strong>PR20GBG</strong>) <label>
+        </p>
+        <p>
+          <input type="checkbox" value="ja" id="frukost" name="frukost" />
+            <label for="frukost">Jag/vi har annat boende, men vill vara med på frukost</label>
+        </p>
+        <p>
+          <button type="submit" class="primary">Hurra för fest!</button>
+        </p>
+      </form>
+    </div>
+  </div>
 </section>
