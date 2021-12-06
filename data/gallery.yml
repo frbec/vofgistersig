@@ -3,6 +3,18 @@ style: "style1 medium lightbox onscroll-fade-in"
 content: |
   Hjälp oss att fota allt som hör bröllopet till och tagga på instagram: <a href="https://www.instagram.com/explore/tags/vofgiftersig/">#vofgistersig</a>
 pictures:
+  - image: "images/gallery/brollop.jpg"
+    thumb: "images/gallery/thumbs/brollop.jpg"
+
+  - image: "images/gallery/cykeldemo.jpg"
+    thumb: "images/gallery/thumbs/cykeldemo.jpg"
+
+  - image: "images/gallery/jonsered.jpg"
+    thumb: "images/gallery/thumbs/jonsered.jpg"
+
+  - image: "images/gallery/badrock.jpg"
+    thumb: "images/gallery/thumbs/badrock.jpg"
+
   - image: "images/gallery/bad-gastein.jpg"
     thumb: "images/gallery/thumbs/bad-gastein.jpg"
     
