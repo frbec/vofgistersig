@@ -13,7 +13,7 @@ buttons:
     link : "#osa"
     style : smooth-scroll-middle 
 
-  - label : "Uppdateringar"
+  - label : "Nytt (11/1)"
     link : "/posts"
     style : 
 
