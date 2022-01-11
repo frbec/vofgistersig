@@ -7,7 +7,7 @@
             <h3>{{ .title }}</h3>
             <ul>
             {{ range .content }}
-                <li>{{ . }}</li>
+                <li>{{ . | safeHTML }}</li>
             {{ end }}
             </ul>
         </div>{{ end }}

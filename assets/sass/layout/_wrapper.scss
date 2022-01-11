@@ -7,33 +7,32 @@
 
 /* Wrapper */
 
-	@mixin wrapper-color($n) {
-		> .color#{$n} {
-			background-color: _palette(color#{$n});
-		}
+@mixin wrapper-color($n) {
+	>.color#{$n} {
+		background-color: _palette(color#{$n});
+	}
+}
+
+#wrapper {
+	background-color: inherit;
+	width: 100%;
+	overflow-x: hidden;
+
+	>.invert {
+		@include color(invert);
 	}
 
-	#wrapper {
-		background-color: inherit;
-		width: 100%;
-		overflow-x: hidden;
+	@include wrapper-color(1);
+	@include wrapper-color(2);
+	@include wrapper-color(3);
+	@include wrapper-color(4);
+	@include wrapper-color(5);
+	@include wrapper-color(6);
+	@include wrapper-color(7);
 
-		> .invert {
-			@include color(invert);
-		}
+}
 
-		@include wrapper-color(1);
-		@include wrapper-color(2);
-		@include wrapper-color(3);
-		@include wrapper-color(4);
-		@include wrapper-color(5);
-		@include wrapper-color(6);
-		@include wrapper-color(7);
-
-	}
-
-	.inner {
-		max-width: 64rem;
-		margin-left: auto;
-		margin-right: auto
-	}
+.form {
+	max-width: 30rem;
+	margin: 0 auto;
+}
