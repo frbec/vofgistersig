@@ -2,16 +2,16 @@
 style: "style1 orient-left content-align-left image-position-top fullscreen onload-image-fade-in onload-content-fade-right"
 title : "Viktoria & Fredrik gifter sig"
 subtitle: |
-  Den 7 maj 2022 bjuder vi in till vigsel och fest i Göteborg. O.S.A. senast 31 mars, men ju förr desto härligare!
+  Den 7 maj 2022 bjuder vi in till vigsel och fest i Göteborg. Nu är det snart dags och vi längtar efter att fira med er!
 content : ""
 buttons:
   - label : "Om dagen"
     link : "#divider1"
     style : primary smooth-scroll
 
-  - label : "OSA"
-    link : "#osa"
-    style : smooth-scroll-middle 
+  # - label : "OSA"
+  #   link : "#osa"
+  #   style : smooth-scroll-middle 
 
   - label : "Nytt (24/4)"
     link : "/posts"
